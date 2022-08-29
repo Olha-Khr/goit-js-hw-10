@@ -19,52 +19,41 @@ body {
   margin-bottom: 16px;
 }
 
-
-.country-info__name-thumb {
-  display: flex;
-  align-items: center;
-}
-
-.country-info__img {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  margin-right: 5px;
-}
-
-.country-info__name {
-  font-weight: 900;
-  font-size: 36px;
-}
-
-
-.country-info__text {
-  font-size: 24px;
-  font-weight: 900;
-}
-
-.country-info__text-description {
-  font-weight: 400;
-}
-
-
 .country-list {
+  padding-left: 0;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.country-list__item {
+.country-item {
+  height: 50px;
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
-.country-list__img {
-  display: inline-block;
+.country-flag {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-left: 15px;
 }
 
-.country-list__name {
-  font-weight: 600;
-  font-size: 22px;
-  margin-left: 20px;
+.country-name {
+  font-weight: 650px;
+  font-size: 25px;
+}
+
+.wrapper {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 18px;
+  font-weight: 500;
 }
