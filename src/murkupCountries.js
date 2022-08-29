@@ -1,4 +1,4 @@
-export const markupItems = (array) => {
+export const murkupCountries = (array) => {
     return array.map(({ flags, name }) =>
         // console.log(flags);
         // console.log(element.name);
@@ -6,7 +6,7 @@ export const markupItems = (array) => {
     ).join('');
 }
 
-export const markupItem = ([{ name, capital, population, flags, languages }]) => {
+export const markupCountri = ([{ name, capital, population, flags, languages }]) => {
 
 
 
